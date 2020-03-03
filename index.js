@@ -29,8 +29,8 @@ document.addEventListener("keydown", function(t) {
    }
 });
 document.addEventListener("keydown", function(t) {
-  if (t.key === "ArrowUp") {
-     moveDodgerUp();
+  if (t.key === "ArrowDown") {
+     moveDodgerDown();
    }
 });
 
