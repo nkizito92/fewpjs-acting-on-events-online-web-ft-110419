@@ -59,7 +59,7 @@ function moveDodgerUp () {
 }
 
 function moveDodgerDown() {
-  let topNum = dodger.style.top.replace("px", "")
+  let downNum = dodger.style.top.replace("px", "")
   let top = parseInt(topNum, 10)
   if (top <  380) {
     dodger.style.top = `${top + 2}px`;
