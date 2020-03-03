@@ -8,11 +8,11 @@ dodger.style.left = "180px";
 dodger.style.bottom = "0px";
 dodger.style.right = "180px";
 
-// document.addEventListener("keydown", function(e) {
-//   if (e.key === "ArrowLeft") {
-//     moveDodgerLeft();
-//   }
-// });
+document.addEventListener("keydown", function(e) {
+  if (e.key === "ArrowLeft") {
+    moveDodgerLeft();
+  }
+});
 
 document.addEventListener("keydown", function(r) {
   if (r.key === "ArrowRight") {
