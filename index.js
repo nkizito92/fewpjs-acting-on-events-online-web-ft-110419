@@ -5,8 +5,8 @@ let dodger = document.querySelector("#dodger")
 
 dodger.style.backgroundColor = "green";
 dodger.style.left = "180px";
-dodger.style.bottom = "10px";
-dodger.style.top = "10px";
+dodger.style.bottom = "180px";
+dodger.style.top = "180px";
 dodger.style.right = "180px";
 
 document.addEventListener("keydown", function(e) {
