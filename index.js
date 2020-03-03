@@ -28,6 +28,11 @@ document.addEventListener("keydown", function(t) {
      moveDodgerUp();
    }
 });
+document.addEventListener("keydown", function(t) {
+  if (t.key === "ArrowUp") {
+     moveDodgerUp();
+   }
+});
 
 function moveDodgerLeft() {
   let leftNumbers = dodger.style.left.replace("px", "");
