@@ -44,7 +44,7 @@ function moveDodgerRight () {
   } 
 }
 
-function moveDodgerup () {
+function moveDodgerUp () {
   let topNum = dodger.style.top.replace("px", "")
   let top = parseInt(rightNum, 10)
   if (top >  0) {
